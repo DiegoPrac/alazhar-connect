@@ -6,6 +6,40 @@
   <meta name="description" content="Al-Azhar Connect, prototype akademik layanan informasi kegiatan dan pemberdayaan masyarakat kampus.">
   <title>Al-Azhar Connect | Prototype PAI Kelompok 8</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .campus-photo {
+      position: relative;
+      margin: 0;
+      overflow: hidden;
+      border: 1px solid rgba(228,197,134,.45);
+      border-radius: 7rem 1.25rem 1.25rem 1.25rem;
+      background: #173843;
+      box-shadow: 0 20px 55px rgba(0,0,0,.24);
+    }
+    .campus-photo img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 5 / 4;
+      object-fit: cover;
+      object-position: center 42%;
+      background: #234750;
+      color: #fff;
+    }
+    .campus-photo figcaption {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: .35rem 1rem;
+      padding: .85rem 1.1rem;
+      font-size: .875rem;
+    }
+    .campus-photo figcaption a { color: #efd59b; text-decoration: underline; }
+    @media (max-width: 760px) {
+      .campus-photo { margin-bottom: 2rem; border-top-left-radius: 4rem; }
+      .campus-photo img { aspect-ratio: 4 / 3; }
+    }
+  </style>
 </head>
 <body>
   <div class="notice" role="note"><span class="notice-pulse"></span> PROTOTYPE AKADEMIK • Bukan situs resmi UKM-KI Al-Azhar atau Universitas Jember • Semua data demo adalah simulasi</div>
@@ -28,18 +62,19 @@
       <div class="hero-glow hero-glow-a"></div><div class="hero-glow hero-glow-b"></div>
       <div class="container hero-grid">
         <div class="hero-text">
-          <div class="eyebrow"><span>✦</span> GAGASAN KELOMPOK 8 • MKU PAI</div>
+          <div class="eyebrow"><span>✦</span> KARYA KELOMPOK 8 • PAI FASILKOM UNEJ</div>
           <h1>Dari ruang ibadah, <span>menjadi ruang tumbuh.</span></h1>
-          <p class="lead">Satu tempat untuk mengenal kegiatan, bergabung sebagai relawan, dan mengeksplorasi program pendidikan serta sosial yang dapat mendukung pemberdayaan masyarakat kampus.</p>
+          <p class="lead">Terinspirasi oleh Masjid Al-Hikmah di Kampus Tegalboto, Kelompok 8 merancang Al-Azhar Connect untuk memperagakan cara mahasiswa menemukan kegiatan, mencoba pendaftaran relawan, dan melihat dampak program kampus.</p>
           <div class="hero-actions"><a class="btn btn-gold" href="#program">Lihat program <span aria-hidden="true">↗</span></a><a class="btn btn-ghost" href="#alur">Bagaimana cara kerjanya? ↓</a></div>
           <div class="hero-trust"><span>✓ Dibuat dengan HTML, CSS, JavaScript</span><span>✓ Tidak mengirim data pribadi</span></div>
         </div>
-        <div class="hero-art" aria-label="Ilustrasi arsitektur masjid berbentuk lengkung dan kartu kegiatan">
-          <div class="arch-frame"><div class="arch-inner"><svg width="310" height="282" viewBox="0 0 310 282" role="img" aria-label="Ilustrasi menara dan kubah masjid" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="155" cy="54" r="44" fill="#E4C586" opacity=".10"/><path d="M32 262V162h32v100M40 162l8-26 8 26M51 134V114M245 262V162h32v100M253 162l8-26 8 26M264 134V114" stroke="#D5B779" stroke-width="3" stroke-linejoin="round"/><path d="M88 262V160C88 127 110 107 155 80c45 27 67 47 67 80v102" fill="#D5B779" fill-opacity=".10" stroke="#D5B779" stroke-width="3"/><path d="M111 262v-82a44 44 0 0 1 88 0v82" stroke="#D5B779" stroke-width="2"/><path d="M142 262v-42a13 13 0 0 1 26 0v42" stroke="#D5B779" stroke-width="2"/><path d="M155 78V48M149 53l6-10 6 10" stroke="#D5B779" stroke-width="3"/><path d="M13 262h283" stroke="#D5B779" stroke-width="3"/></svg></div></div>
-          <div class="floating-card float-top"><span class="float-icon">📚</span><span><strong>Klinik Belajar</strong><small>Contoh kegiatan literasi</small></span></div>
-          <div class="floating-card float-bottom"><span class="float-icon">🤝</span><span><strong>Relawan Berdaya</strong><small>Pendaftaran demo tersedia</small></span></div>
-          <div class="hero-tag">TEKNOLOGI × KEMASLAHATAN</div>
-        </div>
+        <figure class="campus-photo">
+          <img src="https://optima-bmn.unej.ac.id/image?path=images%2Fisdb%2Fgedung%2FMasjid+Al+Hikmah+%28Akad+Nikah-Tempat+dan+Sound+System%29.jpg" alt="Tampak depan Masjid Al-Hikmah UNEJ dengan pilar putih dan lengkung kuning" width="800" height="640" fetchpriority="high" referrerpolicy="no-referrer">
+          <figcaption>
+            <strong>Masjid Al-Hikmah · Kampus Tegalboto</strong>
+            <a href="https://optima-bmn.unej.ac.id/gedung?mulai=05+Mei+2025&amp;page=1&amp;selesai=05+Mei+2025">Foto: Optima-BMN UNEJ</a>
+          </figcaption>
+        </figure>
       </div>
     </section>
 
