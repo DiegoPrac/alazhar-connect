@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Al-Azhar Connect, prototype akademik layanan informasi kegiatan dan pemberdayaan masyarakat kampus.">
+  <title>Al-Azhar Connect | Prototype PAI Kelompok 8</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="notice" role="note"><span class="notice-pulse"></span> PROTOTYPE AKADEMIK • Bukan situs resmi UKM-KI Al-Azhar atau Universitas Jember • Semua data demo adalah simulasi</div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#beranda" aria-label="Al-Azhar Connect - beranda">
+        <span class="brand-symbol" aria-hidden="true">✦</span>
+        <span><strong>Al-Azhar <em>Connect</em></strong><small>Masjid Berdaya • Mahasiswa Berkarya</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="nav-main">☰</button>
+      <nav id="nav-main" class="nav-main" aria-label="Navigasi utama">
+        <a href="#beranda">Beranda</a><a href="#program">Program</a><a href="#agenda">Agenda</a><a href="#dampak">Simulasi Dampak</a><a href="#tentang">Tentang</a>
+      </nav>
+      <a class="btn btn-small btn-outline header-cta" href="#program">Jelajahi program ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-glow hero-glow-a"></div><div class="hero-glow hero-glow-b"></div>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <div class="eyebrow"><span>✦</span> GAGASAN KELOMPOK 8 • MKU PAI</div>
+          <h1>Dari ruang ibadah, <span>menjadi ruang tumbuh.</span></h1>
+          <p class="lead">Satu tempat untuk mengenal kegiatan, bergabung sebagai relawan, dan mengeksplorasi program pendidikan serta sosial yang dapat mendukung pemberdayaan masyarakat kampus.</p>
+          <div class="hero-actions"><a class="btn btn-gold" href="#program">Lihat program <span aria-hidden="true">↗</span></a><a class="btn btn-ghost" href="#alur">Bagaimana cara kerjanya? ↓</a></div>
+          <div class="hero-trust"><span>✓ Dibuat dengan HTML, CSS, JavaScript</span><span>✓ Tidak mengirim data pribadi</span></div>
+        </div>
+        <div class="hero-art" aria-label="Ilustrasi arsitektur masjid berbentuk lengkung dan kartu kegiatan">
+          <div class="arch-frame"><div class="arch-inner"><svg width="310" height="282" viewBox="0 0 310 282" role="img" aria-label="Ilustrasi menara dan kubah masjid" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="155" cy="54" r="44" fill="#E4C586" opacity=".10"/><path d="M32 262V162h32v100M40 162l8-26 8 26M51 134V114M245 262V162h32v100M253 162l8-26 8 26M264 134V114" stroke="#D5B779" stroke-width="3" stroke-linejoin="round"/><path d="M88 262V160C88 127 110 107 155 80c45 27 67 47 67 80v102" fill="#D5B779" fill-opacity=".10" stroke="#D5B779" stroke-width="3"/><path d="M111 262v-82a44 44 0 0 1 88 0v82" stroke="#D5B779" stroke-width="2"/><path d="M142 262v-42a13 13 0 0 1 26 0v42" stroke="#D5B779" stroke-width="2"/><path d="M155 78V48M149 53l6-10 6 10" stroke="#D5B779" stroke-width="3"/><path d="M13 262h283" stroke="#D5B779" stroke-width="3"/></svg></div></div>
+          <div class="floating-card float-top"><span class="float-icon">📚</span><span><strong>Klinik Belajar</strong><small>Contoh kegiatan literasi</small></span></div>
+          <div class="floating-card float-bottom"><span class="float-icon">🤝</span><span><strong>Relawan Berdaya</strong><small>Pendaftaran demo tersedia</small></span></div>
+          <div class="hero-tag">TEKNOLOGI × KEMASLAHATAN</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Informasi demo"><div class="container stats-grid"><div><strong>03</strong><span>Program contoh</span></div><div><strong>01</strong><span>Prototype website</span></div><div><strong>06</strong><span>Kontributor kelompok</span></div><div><strong>100%</strong><span>Data simulasi</span></div></div></section>
+
+    <section class="section" id="program"><div class="container">
+      <div class="section-head"><div><div class="eyebrow dark">PILIH PELUANG BERKONTRIBUSI</div><h2>Program pemberdayaan <span>yang bisa dicoba.</span></h2></div><p>Contoh rancangan program yang terhubung dengan materi PAI. Belum menyatakan sebagai program resmi atau kegiatan UKM yang telah berjalan.</p></div>
+      <div class="filters" role="group" aria-label="Filter kategori program"><button class="chip active" data-filter="semua" aria-pressed="true">Semua program</button><button class="chip" data-filter="pendidikan" aria-pressed="false">Pendidikan</button><button class="chip" data-filter="sosial" aria-pressed="false">Sosial</button><button class="chip" data-filter="ekonomi" aria-pressed="false">Ekonomi</button></div>
+      <div class="program-grid">
+        <article class="program-card" data-category="pendidikan"><div class="program-art art-edu"><span class="program-big-icon">📖</span><span class="program-corner">01</span></div><div class="program-body"><span class="tag">PENDIDIKAN</span><h3>Klinik Belajar & Literasi Digital</h3><p>Ruang belajar bersama, pendampingan tugas, dan pengenalan keamanan internet bagi pelajar.</p><div class="card-meta"><span>⏱ Jadwal contoh</span><span>◎ Untuk pelajar</span></div><button class="btn btn-card" data-program="Klinik Belajar & Literasi Digital">Coba daftar <span>↗</span></button></div></article>
+        <article class="program-card" data-category="sosial"><div class="program-art art-social"><span class="program-big-icon">🤲</span><span class="program-corner">02</span></div><div class="program-body"><span class="tag">SOSIAL</span><h3>Relawan Aksi Peduli</h3><p>Simulasi koordinasi relawan untuk berbagi, kerja bakti, dan kegiatan kepedulian masyarakat.</p><div class="card-meta"><span>⏱ Jadwal contoh</span><span>◎ Mahasiswa & umum</span></div><button class="btn btn-card" data-program="Relawan Aksi Peduli">Jadi relawan <span>↗</span></button></div></article>
+        <article class="program-card" data-category="ekonomi"><div class="program-art art-umkm"><span class="program-big-icon">🛍️</span><span class="program-corner">03</span></div><div class="program-body"><span class="tag">EKONOMI</span><h3>UMKM & Keterampilan Digital</h3><p>Pelatihan promosi produk sederhana untuk mendukung peluang usaha kecil masyarakat.</p><div class="card-meta"><span>⏱ Jadwal contoh</span><span>◎ Calon pelaku usaha</span></div><button class="btn btn-card" data-program="UMKM & Keterampilan Digital">Coba daftar <span>↗</span></button></div></article>
+      </div>
+    </div></section>
+
+    <section class="section section-alt" id="agenda"><div class="container"><div class="section-head"><div><div class="eyebrow dark">AGENDA ILUSTRATIF</div><h2>Kegiatan yang <span>mudah ditemukan.</span></h2></div><p>Penjadwalan berikut hanya contoh tampilan website; bukan kalender resmi UKM-KI Al-Azhar.</p></div>
+      <div class="agenda-list"><div class="agenda-item"><div class="date-box"><strong>01</strong><small>MINGGU</small></div><div class="agenda-detail"><span class="tag">SIMULASI</span><h3>Diskusi literasi digital</h3><p>Pengenalan cara memeriksa sumber berita dan etika bermedia sosial.</p></div><span class="agenda-place">Ruang belajar contoh</span></div><div class="agenda-item"><div class="date-box"><strong>02</strong><small>MINGGU</small></div><div class="agenda-detail"><span class="tag">SIMULASI</span><h3>Aksi peduli lingkungan</h3><p>Pengelolaan kebersihan dan pembagian peran relawan.</p></div><span class="agenda-place">Area kegiatan contoh</span></div><div class="agenda-item"><div class="date-box"><strong>03</strong><small>MINGGU</small></div><div class="agenda-detail"><span class="tag">SIMULASI</span><h3>Pelatihan promosi UMKM</h3><p>Praktik membuat poster dan katalog produk menggunakan alat digital.</p></div><span class="agenda-place">Ruang kelas contoh</span></div></div>
+    </div></section>
+
+    <section class="section how-section" id="alur"><div class="container"><div class="eyebrow dark">ALUR LAYANAN</div><h2>Empat langkah, <span>satu tujuan baik.</span></h2><div class="steps-grid"><div class="step"><span>01</span><h3>Temukan</h3><p>Mahasiswa melihat program yang menarik di website.</p></div><div class="step"><span>02</span><h3>Pilih</h3><p>Kategori membantu menemukan program relevan.</p></div><div class="step"><span>03</span><h3>Daftar demo</h3><p>Simulasi formulir menampilkan konfirmasi langsung.</p></div><div class="step"><span>04</span><h3>Evaluasi</h3><p>Pengelola dapat membayangkan rekap kegiatan dan manfaatnya.</p></div></div></div></section>
+
+    <section class="section section-alt" id="dampak"><div class="container dashboard-grid"><div><div class="eyebrow dark">TRANSPARANSI PROGRAM • SIMULASI</div><h2>Kegiatan bukan cuma terlaksana, <span>tetapi dievaluasi.</span></h2><p class="dashboard-intro">Contoh panel rekap ini memperlihatkan bagaimana program dapat dipantau. Nominal dan pembagian biaya adalah angka ilustratif, <strong>bukan dana UKM atau laporan keuangan masjid yang sebenarnya.</strong></p><div class="impact-cards"><div><b id="demo-submissions">0</b><small>Pengisian formulir pada sesi ini</small></div><div><b>3</b><small>Contoh kategori program</small></div></div></div><div class="dashboard"><div class="dashboard-header"><div><strong>Ringkasan alokasi</strong><small>CONTOH ANGGARAN • BUKAN DATA RIIL</small></div><span class="status-pill">Simulasi</span></div><p class="budget-total">Rp1.000.000</p><div class="budget-row"><span>Pendidikan</span><b>40%</b></div><div class="budget-bar"><i style="width:40%;background:#267d75"></i></div><div class="budget-row"><span>Kegiatan sosial</span><b>35%</b></div><div class="budget-bar"><i style="width:35%;background:#d0a65c"></i></div><div class="budget-row"><span>Operasional</span><b>25%</b></div><div class="budget-bar"><i style="width:25%;background:#7789a2"></i></div><p class="small-print">Angka di atas hanya untuk memperagakan prinsip pencatatan, evaluasi, dan amanah pengelolaan dana. Bukan fasilitas pembayaran maupun penggalangan donasi.</p></div></div></section>
+
+    <section class="section values" id="tentang"><div class="container values-grid"><div><div class="eyebrow dark">LANDASAN PAI</div><h2>Teknologi adalah sarana. <span>Kemaslahatan adalah tujuan.</span></h2><p>Dalam QS. At-Taubah [9]:18, memakmurkan masjid dikaitkan dengan iman, salat, dan zakat. Materi Kelompok 8 mengembangkan gagasan bahwa masjid memiliki peran ibadah, pendidikan, kepedulian sosial, dan pemberdayaan umat.</p><p>Website ini hanya <strong>contoh solusi teknologi informasi</strong> untuk memudahkan informasi kegiatan dan partisipasi. Pengembangan nyata harus melibatkan pengurus yang berwenang serta kebutuhan jamaah.</p><a class="text-link" target="_blank" rel="noopener noreferrer" href="https://ilkom.unej.ac.id/peningkatan-hubungan-dengan-allah-swt-dan-sesama-melalui-festival-ukm-ki-al-azhar-fakultas-ilmu-komputer-universitas-jember/">Baca dokumentasi kegiatan UKM-KI Al-Azhar (Fasilkom UNEJ) ↗</a></div><div class="value-panel"><div class="value-row"><span>01</span><div><strong>Iman dan ibadah</strong><p>Orientasi spiritual tetap menjadi landasan.</p></div></div><div class="value-row"><span>02</span><div><strong>Ilmu dan literasi</strong><p>Pendidikan dan teknologi dimanfaatkan untuk kebaikan.</p></div></div><div class="value-row"><span>03</span><div><strong>Kepedulian sosial</strong><p>Relawan dan kolaborasi memperluas manfaat kegiatan.</p></div></div><div class="value-row"><span>04</span><div><strong>Amanah dan evaluasi</strong><p>Pelaksanaan program perlu transparan dan terukur.</p></div></div></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-grid"><div><strong>✦ Al-Azhar Connect</strong><p>Prototype akademik PAI Kelompok 8, Teknologi Informasi Fasilkom UNEJ. Bukan milik, afiliasi resmi, atau sistem operasional UKM-KI Al-Azhar.</p></div><div><strong>Pembuat</strong><p>Kelompok 8 PAI</p><small>2026 • Data, agenda, dan fitur adalah simulasi</small></div></div></footer>
+
+  <dialog class="modal" id="register-dialog" aria-labelledby="modal-title"><form id="demo-form" method="dialog"><div class="modal-head"><div><span class="tag">FORMULIR SIMULASI</span><h2 id="modal-title">Daftar kegiatan</h2></div><button type="button" class="close-modal" aria-label="Tutup formulir">×</button></div><p class="modal-desc">Ini hanya demo untuk video tugas. Tidak ada pengiriman, penyimpanan, atau pendaftaran nyata.</p><label for="chosen-program">Program pilihan</label><input id="chosen-program" name="program" readonly><label for="alias">Nama panggilan (contoh saja)</label><input id="alias" name="alias" maxlength="35" placeholder="Misalnya: Mahasiswa A" required><label for="role">Saya ingin bergabung sebagai</label><select id="role" name="role"><option>Peserta</option><option>Relawan</option></select><button class="btn btn-gold submit-btn" type="submit">Kirim simulasi ↗</button><p class="small-print">Jangan gunakan identitas atau nomor telepon asli. Semua data hilang saat halaman dimuat ulang.</p></form></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
